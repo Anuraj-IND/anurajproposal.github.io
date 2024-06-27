@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACCEPT IT???~by anuraj</title>
+    <style>
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+          padding: 0;
+          background-color: rebeccapurple;
+          font-family: Arial, sans-serif;
+        color: aliceblue;
+         }
+  
+        .box {
+          text-align: center;
+        }
+      
+      </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>&hearts;ACCEPT IT???&hearts;</h1>
+      <h2>&hearts;ACCEPT IT???&hearts;</h2>
+      <h3>&hearts;ACCEPT IT???&hearts;</h3>
+      <h4>&hearts;ACCEPT IT???&hearts;</h4>
+      <h5>&hearts;ACCEPT IT???&hearts;</h5>
+      <h6>&hearts;ACCEPT IT???&hearts;</h6>
+      <button id="yes">&hearts;ACCEPT IT???&hearts;</button>
+      <button id="NO">HELL Nah!! bitch</button>
+    </div>
+  </body>
+  <script>
+    function chutiya() {
+            alert("HELL Nah!! bitch");
+        }
+    function move() {
+        const x = Math.floor(Math.random() * (window.innerWidth-500));
+        const y = Math.floor(Math.random() * (window.innerHeight-500));
+        button.style.transform = `translateX(${x}px) translateY(${y}px)`;
+        alert("please na i love you!");
+    }
+    const button = document.querySelector("#NO");
+    button.addEventListener("click", move);
+    const button2 = document.querySelector("#yes");
+    button2.addEventListener("click",chutiya);
+  </script>
+</html>
